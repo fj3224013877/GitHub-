@@ -28,4 +28,4 @@ jobs:
         SCKEY: ${{ secrets.SCKEY }}  # 从 GitHub Secrets 中获取 SCKEY
         LANGUAGE: ${{ secrets.LANGUAGE }}  # 从 GitHub Secrets 中获取语言类型
       run: |
-        python [爬取github热门项目.py](http://_vscodecontentref_/#%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22c%3A%5C%5CUsers%5C%5C123%5C%5CDesktop%5C%5Cpython%5C%5C%E7%88%AC%E5%8F%96github%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE.py%22%2C%22_sep%22%3A1%2C%22path%22%3A%22%2Fc%3A%2FUsers%2F123%2FDesktop%2Fpython%2F%E7%88%AC%E5%8F%96github%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE.py%22%2C%22scheme%22%3A%22file%22%7D%7D)
+        python 爬取github热门项目.py
